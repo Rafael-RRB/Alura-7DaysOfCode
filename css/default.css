@@ -1,0 +1,57 @@
+/* || ID */
+#banner {
+  width: 50%;
+  margin: 0% auto 0.625em auto;
+  display: block;
+  text-align: center;
+  /*image-rendering: pixelated;*/
+}
+#bannerDay {
+  width: 68.7%;
+  margin: 0% auto 0.625em auto;
+  display: block;
+  text-align: center;
+  /*image-rendering: pixelated;*/
+}
+/* || Class */
+.headerFooter {
+  background: #000;
+  font-size: 3.2em;
+  padding: 0.625em;
+  text-align: center;
+}
+/* || Element */
+body {
+  font-size: 10px;
+  color: #fff;
+}
+main {
+  background: #fff;
+  color: #000;
+  font-size: 1.8em;
+  padding: 0.36em;
+  text-align: center;
+}
+main section p {
+  margin: 0.5em 0;
+}
+/* Strong ≠ Bold (Accessibility) */
+strong {
+  font-weight: 900;
+}
+/* Em ≠ Italic (Accessibility) */
+em {
+  font-style: italic;
+}
+/* || Other */
+@media screen and (max-width: 320px) {
+  /* ID */
+  /* Class */
+  /* Element */
+  body {
+    font-size: 6px;
+  }
+  main {
+    font-size: 2.6em;
+  }
+}
