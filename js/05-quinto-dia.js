@@ -84,8 +84,15 @@ while(continuar) {
 
 var arrayTodos = arrayCarnes.concat(arrayCongelados, arrayDoces, arrayFrutas, arrayLaticinios, arrayVegetais);
 alert("Sua lista é:\n" + arrayTodos);
-// arrayTodos.forEach({});
 
+// Pessoa: não deu tempo para terminar...
+/*
+arrayTodos.forEach(function(index) {
+	index = index.toLowerCase().bind()	;
+	index = index.charAt(0).toUpperCase()+index.slice(1);
+}
+);
+*/
 
 
 
