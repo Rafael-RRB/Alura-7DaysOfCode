@@ -1,0 +1,4 @@
+- Change all .png images to vector images using Inkscape;
+  - Learn how to use Inkscape..;
+- Finish default HTML format;
+- Finish default CSS format;
