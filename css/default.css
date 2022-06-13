@@ -1,39 +1,68 @@
 /* || ID */
 #banner {
   width: 50%;
-  margin: 0% auto 0.625em auto;
+  margin: 0.625em auto 0em auto;
   display: block;
   text-align: center;
   /*image-rendering: pixelated;*/
 }
 #bannerDay {
   width: 68.7%;
-  margin: 0% auto 0.625em auto;
+  margin: 0.625em auto;
   display: block;
   text-align: center;
   /*image-rendering: pixelated;*/
 }
 /* || Class */
 .headerFooter {
-  background: #000;
   font-size: 3.2em;
-  padding: 0.625em;
+  padding: 2.5em 0em 0.625em 0em;
   text-align: center;
+}
+.bordaSecao {
+	width: 100%;
+	background: #ffff03;
+	border-top: 2px;
+	border-color: #ffff03;
+	margin: 0%;
 }
 /* || Element */
 body {
+	border: 2em solid #fff;
+	background: #000;
   font-size: 10px;
+	font-family: arial;
   color: #fff;
 }
+a {
+	color: inherit;
+}
+button {
+	background-color: inherit;
+	border-color: #ffff03;
+	border-width: 0.125em;
+	color: #fff;
+	font-size: inherit;
+	text-align: center;
+	text-decoration: underline;
+	vertical-align: middle;
+	transition: 250ms;
+}
+button:hover {
+	color: #ffff03;
+}
 main {
-  background: #fff;
-  color: #000;
   font-size: 1.8em;
   padding: 0.36em;
   text-align: center;
 }
 main section p {
   margin: 0.5em 0;
+}
+footer {
+}
+footer section {
+	padding: 0em 0em 1.875em 0em;
 }
 /* Strong ≠ Bold (Accessibility) */
 strong {
@@ -49,7 +78,7 @@ em {
   /* Class */
   /* Element */
   body {
-    font-size: 6px;
+    font-size: 5px;
   }
   main {
     font-size: 2.6em;
