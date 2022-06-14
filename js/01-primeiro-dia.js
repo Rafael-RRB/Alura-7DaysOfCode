@@ -29,15 +29,16 @@ alert("Veja o console para ver o teste original.");
 var continua = true;
 
 while(continua) {
-	var primeiro = parseInt(prompt("Insira um NÚMERO."));
+	var primeiro = parseInt(prompt("Insira um número."));
 	while(isNaN(primeiro)) {
-		alert("Você não inseriu um número, tente novamente.");
-		primeiro = parseInt(prompt("Insira um NÚMERO."));
+		alert("Você não inseriu um número!");
+		primeiro = parseInt(prompt("Insira um número."));
 	}
-	var segundo = prompt('Insira um número OU string.\n(Obs.: a função "prompt" transforma o valor inserido em prompt!)');
+	var segundo = prompt("Insira uma string.");
 	var linhaUm = (primeiro == segundo);
-	var linhaDois = (primeiro === segundo);
-	alert(`${primeiro} e ${segundo} tem o mesmo valor? ${linhaUm};\n${primeiro} e ${segundo} tem o mesmo valor E tipo? ${linhaDois};`);
+	var linhaDois = typeof primeiro == typeof segundo;
+	var linhaTres = (primeiro === segundo);
+	alert(`${primeiro} e "${segundo}" tem o mesmo valor? ${linhaUm};\n${primeiro} e "${segundo}" tem o mesmo tipo? ${linhaDois};\n${primeiro} e "${segundo}" tem o mesmo valor E tipo? ${linhaTres};`);
 	if(!confirm("Comparar mais valores?")) {
 		continua = false;
 	}
