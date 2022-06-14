@@ -36,6 +36,17 @@ while(!end) {
 
 if(userGosta) {
   alert("Muito bom! Continue estudando e você terá muito sucesso.");
+	//NEW
+	userGosta = "Como você gosta desta língua, continue estudando e você terá muito sucesso!";
+	//END
 } else {
   alert("Ahh que pena... Já tentou aprender outras linguagens?");
+	//NEW
+	userGosta = "Infelizmente, você não gosta desta língua... mas eu tenho certeza que você poderá encontrar outra na Alura!";
+	//END
 }
+
+//NEW
+var endText = (`Olá ${userNome},\nVocê tem ${userIdade} anos e já está aprendendo ${userProgLingua}!\n${userGosta}`);
+document.querySelector('main section p').innerText = endText;
+//END
