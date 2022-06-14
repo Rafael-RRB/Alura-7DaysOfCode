@@ -113,3 +113,11 @@ Quer ser um dev ${futuroEscolha}, e tem interesse na(s) tecnologia(s) ${resposta
   1. Aprender como ignorar casing --> "sim" === ["SiM","SIM",etc]);
   
 */
+
+//NEW
+
+var endText = (`Você prefere a área ${areaProgramacao}, utilizando a linguagem ${lingProgramacao}.
+Quer ser um dev ${futuroEscolha}, e tem interesse na(s) tecnologia(s) ${respostaTecnologia.join(', ')}.`);
+document.querySelector("main section p").innerText = endText;
+
+//END
