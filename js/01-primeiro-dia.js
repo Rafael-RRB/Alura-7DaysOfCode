@@ -25,6 +25,7 @@ console.log('As variáveis numeroDez e stringDez tem o mesmo valor, mas tipos di
 console.log('As variáveis numeroDez e stringDez não tem o mesmo valor')
 }
 
+//NEW
 alert("Veja o console para ver o teste original.");
 var continua = true;
 
@@ -43,4 +44,4 @@ while(continua) {
 		continua = false;
 	}
 }
-
+//END
