@@ -4,8 +4,8 @@ Mas fazer o que.
 
 TODO list:
 
-- ~~Concluir os desafios diários~~
+- ~~Concluir os desafios diários~~;
 - ~~Vector para HEADER~~;
 - ~~Melhorar CSS~~;
-- Conteúdo básico no MAIN dos HTMLs;
-  - MAIN modificado pelos prompts dos usuários;
+- ~~Conteúdo básico no MAIN dos HTMLs~~;
+  - ~~MAIN modificado pelos prompts dos usuários~~;
