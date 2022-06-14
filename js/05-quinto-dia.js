@@ -94,6 +94,10 @@ arrayTodos.forEach(function(index) {
 );
 */
 
+//NEW
+var endText = (`Esta é a sua lista de compras:\nCarnes: ${arrayCarnes}\nCongelados: ${arrayCongelados}\nDoces: ${arrayDoces}\nFrutas: ${arrayFrutas}\nLaticínios: ${arrayLaticinios}\nVegetais: ${arrayVegetais}`);
+document.querySelector("main section p").innerText = endText;
+//END
 
 
 
