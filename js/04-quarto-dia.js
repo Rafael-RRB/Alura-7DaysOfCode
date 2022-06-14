@@ -48,3 +48,7 @@ while(vidasJogador > 0) {
     alert(`Score final: ${scoreJogador}`);
   }
 }
+//NEW
+var endText = (`Fim!\nO seu score final foi de ${scoreJogador}.`);
+document.querySelector("main section p").innerText = endText;
+//END
