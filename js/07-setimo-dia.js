@@ -9,7 +9,6 @@
 	As opções disponíveis deverão ser: soma, subtração, multiplicação, divisão, e sair.
 	Nessa última, o programa deverá parar de ser executado, mostrando uma mensagem "Até a próxima".
 */
-
 //  Variáveis
 var numPrimeiro;
 var numPrimeiroResultado;
@@ -21,7 +20,15 @@ const divide = ["/","div","Div","DIV","divide","Divide","DIVIDE"]
 const arrayOperacao = soma.concat(subtrai, multiplica, divide);
 var numSegundo;
 var resultado;
+var mensagemCalculadora = "Você quer utilizar a calculadora?";
 //  Funções
+function reiniciar() {
+	var numPrimeiro = "";
+	var numPrimeiroResultado = "";
+	var operacao = "";
+	var numSegundo = "";
+	var resultado = "";
+}
 function fSoma() {
 	resultado = numPrimeiro + numSegundo;
 }
@@ -53,6 +60,8 @@ function calcula() {
 
 alert("Bem vindo a calculadora!\nAqui você pode SOMAR, SUBTRAIR, MULTIPLICAR e DIVIDIR.");
 
+while(confirm(mensagemCalculadora)) {
+mensagemCalculadora = "Você quer fazer outro cálculo?";
 numPrimeiro = parseInt(prompt("Por favor, insira o primeiro número."));
 while(isNaN(numPrimeiro)) {
 	alert("Você não inseriu um número, tente novamente.\nEx.: 9 --> SIM / Nove --> NÃO");
@@ -83,3 +92,5 @@ while(confirm("Continuar operação?")) {
 	calcula();
 }
 alert(`O resultado do cálculo foi "${resultado}".`);
+reiniciar();
+}
