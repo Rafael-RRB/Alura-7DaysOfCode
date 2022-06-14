@@ -24,3 +24,22 @@ console.log('As variáveis numeroDez e stringDez tem o mesmo valor, mas tipos di
 } else {
 console.log('As variáveis numeroDez e stringDez não tem o mesmo valor')
 }
+
+alert("Veja o console para ver o teste original.");
+var continua = true;
+
+while(continua) {
+	var primeiro = parseInt(prompt("Insira um NÚMERO."));
+	while(isNaN(primeiro)) {
+		alert("Você não inseriu um número, tente novamente.");
+		primeiro = parseInt(prompt("Insira um NÚMERO."));
+	}
+	var segundo = prompt('Insira um número OU string.\n(Obs.: a função "prompt" transforma o valor inserido em prompt!)');
+	var linhaUm = (primeiro == segundo);
+	var linhaDois = (primeiro === segundo);
+	alert(`${primeiro} e ${segundo} tem o mesmo valor? ${linhaUm};\n${primeiro} e ${segundo} tem o mesmo valor E tipo? ${linhaDois};`);
+	if(!confirm("Comparar mais valores?")) {
+		continua = false;
+	}
+}
+
