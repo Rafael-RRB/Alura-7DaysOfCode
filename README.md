@@ -4,6 +4,7 @@ Mas fazer o que.
 
 TODO list:
 
+- ~~Concluir os desafios diários~~
 - ~~Vector para HEADER~~;
 - ~~Melhorar CSS~~;
 - Conteúdo básico no MAIN dos HTMLs;
