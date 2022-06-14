@@ -8,4 +8,4 @@ TODO list:
 - ~~Vector para HEADER~~;
 - ~~Melhorar CSS~~;
 - Conteúdo básico no MAIN dos HTMLs;
-  - MAIN possui algo relacionado ao desafio (ex.: lista de compras escrito no MAIN);
+  - MAIN modificado pelos prompts dos usuários;
