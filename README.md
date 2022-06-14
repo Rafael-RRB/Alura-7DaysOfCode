@@ -1,8 +1,10 @@
-# Alura-7DaysOfCode
-Lógica JavaScript
+# Alura-7DaysOfCode-LogicaJS
+Perdendo um pouco do espírito do desafio, eu tornei este repositório público apenas terminar todos os desafios.  
+Mas fazer o que.  
 
-To-do:
+TODO list:
 
-	- Vector para HEADER;
-	- Melhorar CSS;
-	- Conteúdo do MAIN;
+- ~~Vector para HEADER~~;
+- ~~Melhorar CSS~~;
+- Conteúdo básico no MAIN dos HTMLs;
+  - MAIN possui algo relacionado ao desafio (ex.: lista de compras escrito no MAIN);
