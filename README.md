@@ -1,6 +1,6 @@
 # Alura-7DaysOfCode-LogicaJS
   
-Repositório para o desafio #7DaysOfCode - Lógica Javascript, da <a href="https://www.alura.com.br/">Alura</a>.  
+Repositório para o desafio #7DaysOfCode - Lógica Javascript, da Alura.  
   
 Perdendo um pouco do espírito do desafio, tornei este repositório público apenas após terminar todos os desafios...  
 ...Mas fazer o que.  

@@ -88,6 +88,7 @@ while(confirm("Continuar operação?")) {
 	numSegundo = parseInt(prompt("Por favor, insira mais um número."));
 	while(isNaN(numSegundo)) {
 		alert("Você não inseriu um número, tente novamente.\nEx.: 9 --> SIM / Nove --> NÃO");
+		numSegundo = parseInt(prompt("Por favor, insira mais um número."));
 	}
 	calcula();
 }
